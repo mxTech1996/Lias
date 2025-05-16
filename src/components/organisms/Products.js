@@ -29,7 +29,7 @@ export default function ProductsSection() {
                 {member.description.slice(0, 140)}...
               </p>
               <hr className='w-16 border-t border-gray-300 my-4' />
-              <p className='text-blue-700'>{member.price}</p>
+              <p className='text-blue-700'>$ {member.price}</p>
               {/*button add to cart  */}
 
               <button
